@@ -27,3 +27,21 @@ header {
 main {
   padding: 2rem;
 }
+
+body[data-theme="dark"] {
+  background: #0d1117;
+  color: #e6edf3;
+}
+
+body[data-theme="dark"] header {
+  background: #161b22;
+}
+
+body[data-theme="dark"] #theme-toggle {
+  background: #30363d;
+  color: #e6edf3;
+}
+
+body[data-theme="dark"] .nav-links a {
+  color: #e6edf3;
+}
